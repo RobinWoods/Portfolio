@@ -1,13 +1,16 @@
 <script setup>
+
 defineProps({
   skillsGroup: String,
   skills: Array
 })
 
+
+
 function getImageURL(title){
-  console.log(`@/assets/${title}.svg`)
-  return `src/assets/${title}.svg`
+  return new URL(`@/assets/${title}.png`, import.meta.url).href;
 }
+
 </script>
 
 <template>
