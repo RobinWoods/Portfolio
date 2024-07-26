@@ -6,16 +6,13 @@ defineProps({
 })
 
 
-
-function getImageURL(title){
-  return new URL(`@/assets/${title}.png`, import.meta.url).href;
-}
-
 </script>
 
 <template>
   <div>
-    <img :src="getImageURL(skillsGroup)" :alt="`${skillsGroup} Logo`" class="skillsLogo">
+    <img v-if="skillsGroup === 'Dev'" src="@/assets/Dev.png" :alt="`${skillsGroup} Logo`" class="skillsLogo">
+    <img v-if="skillsGroup === 'System'" src="@/assets/System.png" :alt="`${skillsGroup} Logo`" class="skillsLogo">
+    <img v-if="skillsGroup === 'Tools'" src="@/assets/Tools.png" :alt="`${skillsGroup} Logo`" class="skillsLogo">
     <h2>{{skillsGroup}}</h2>
     <div class="skillsList">
       <ul v-for="skill in skills" style="color:var(--custom-blue-color);">{{skill}}</ul>
