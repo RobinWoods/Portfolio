@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <img src="@/assets/robinHood.png" alt="Robin Hood" class="robinHood"/>
+    <a href="/public/pdf/CV_RDerenty.pdf" target="_blank" ><img src="@/assets/robinHood.png" alt="Robin Hood" class="robinHood"/></a>
     <h1>Robin Woods</h1>
     <h2>IT Engineer Student</h2>
     <div class="presentationBlock">
