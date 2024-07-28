@@ -13,10 +13,10 @@
 div{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
-  padding-inline: 5rem;
   align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .logo{

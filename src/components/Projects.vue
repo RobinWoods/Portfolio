@@ -17,6 +17,7 @@ defineProps({
 </template>
 
 <style scoped>
+
 div{
   text-align: center;
   margin-top: 5rem;
@@ -32,7 +33,7 @@ div{
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  margin-inline: 5rem;
+  margin-inline: 2rem;
 }
 
 </style>

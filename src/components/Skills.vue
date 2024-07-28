@@ -31,6 +31,10 @@ defineProps({
   box-shadow: 0.2rem 0.2rem 0.2rem #000000;
   border-radius: 1.2rem;
   width: fit-content;
+  flex-wrap: wrap;
+  margin-inline: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .skillGroups{

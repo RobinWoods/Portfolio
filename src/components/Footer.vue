@@ -40,4 +40,9 @@ a{
   color: white;
 }
 
+p{
+  padding: 0.5rem;
+  text-align: center;
+}
+
 </style>
