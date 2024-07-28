@@ -3,6 +3,7 @@ import Projects from "@/components/Projects.vue";
 import Header from "@/components/Header.vue";
 import Presentation from "@/components/Presentation.vue";
 import Skills from "@/components/Skills.vue";
+import Footer from "@/components/Footer.vue";
 
 const skills = {
   dev: {
@@ -21,7 +22,7 @@ const skills = {
 
 const projectList= [
   {
-    link: "https://sentinelle.derenty.net",
+    link: "https://sentinelle.derenty.net/",
     name: "Sentinelle",
     description: "A fake web application made for a school project. The Website is connected to a SQL DataBase with an API."
   },
@@ -39,6 +40,7 @@ const projectList= [
   <Presentation/>
   <Skills :skills-group="skills"/>
   <Projects :projects-list="projectList"/>
+  <Footer/>
 </template>
 
 <style scoped>
