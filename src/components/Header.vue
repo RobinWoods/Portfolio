@@ -1,11 +1,24 @@
 <script setup>
+import Contact from "@/components/Contact.vue";
+import {ref} from "vue";
+
+let isVisible = ref(false);
+
+function showContact(){
+  isVisible.value = true;
+}
+
+function hideContact() {
+  isVisible.value = false;
+}
 
 </script>
 
 <template>
   <div>
     <img src="@/assets/logo.png" alt="logo" class="logo"/>
-    <button class="contactButton">Contact-Me</button>
+    <button class="contactButton" @click="showContact" >Contact-Me</button>
+    <Contact v-model:is-visible="isVisible" @close="hideContact" @show="console.log('Hello World')"/>
   </div>
 </template>
 

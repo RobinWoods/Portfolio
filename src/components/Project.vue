@@ -1,9 +1,11 @@
 <script setup>
+import { ref } from 'vue';
 defineProps(['project'])
 let width = null
 if (typeof window !== 'undefined') {
-  width = window.screen.width;
+  width = ref(window.screen.width);
 }
+
 </script>
 
 <template>
