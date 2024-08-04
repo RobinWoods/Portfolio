@@ -5,11 +5,11 @@
 <template>
   <div>
     <a href="/public/pdf/CV_RDerenty.pdf" target="_blank" ><img src="@/assets/robinHood.png" alt="Robin Hood" class="robinHood"/></a>
-    <h1>Robin Woods</h1>
-    <h2>IT Engineer Student</h2>
+    <h1>Robin Derenty</h1>
+    <h2>Étudiant Ingénieur Informatique</h2>
     <div class="presentationBlock">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat et lectus at bibendum. Nunc commodo cursus tortor. Sed tortor risus, blandit ut quam molestie, lobortis molestie est. Vestibulum tincidunt consequat tellus, sed rutrum nunc porttitor non.</p>
-      <p>Vestibulum non condimentum nibh, id pellentesque nisl. Aenean at vehicula eros. Quisque dictum, purus consectetur placerat fermentum, metus diam dapibus lectus, eget tincidunt purus felis a dui. Ut vel elit aliquam nisi tempus fermentum. Ut et turpis malesuada, lobortis ex quis, volutpat erat. Etiam vitae est porttitor est vulputate finibus.</p>
+      <p>Passionné d’informatique depuis l’enfance, ma rigueur et mon envie de toujours apprendre plus m’ont conduit à entreprendre des études d’ingénieur dans ce domaine.</p>
+      <p>Mon parcours académique et mes expériences professionnelles témoignent de ma capacité à mener des projets innovants et à m’adapter rapidement aux nouvelles technologies. Je suis actuellement étudiant en classe préparatoire en informatique, prêt à relever de nouveaux défis et à contribuer à des projets ambitieux.</p>
     </div>
   </div>
 
@@ -31,7 +31,14 @@ div{
   vertical-align: baseline;
   min-height: 20rem;
 
+}
 
+img{
+  border-radius: 50%;
+  transition-duration: 0.2s;
+}
+img:hover{
+  scale: 1.05;
 }
 
 </style>
