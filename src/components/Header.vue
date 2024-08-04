@@ -17,8 +17,8 @@ function hideContact() {
 <template>
   <div>
     <img src="@/assets/logo.png" alt="logo" class="logo"/>
-    <button class="contactButton" @click="showContact" >Contact-Me</button>
-    <Contact v-model:is-visible="isVisible" @close="hideContact" @show="console.log('Hello World')"/>
+    <button class="contactButton" @click="showContact" >Contactez-Moi</button>
+    <Contact v-model:is-visible="isVisible" @close="hideContact" />
   </div>
 </template>
 

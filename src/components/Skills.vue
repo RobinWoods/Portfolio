@@ -8,7 +8,7 @@ defineProps({
 
 <template>
 <div class="skills">
-    <h1>Skills</h1>
+    <h1>Compétences</h1>
     <div class="skillGroups">
       <div class="skillsBlock">
         <SkillsBlock v-for="skillsGroup in skillsGroup" :skillsGroup="skillsGroup.group" :skills="skillsGroup.skills"/>

@@ -16,7 +16,7 @@ const skills = {
   },
   tools: {
     group: "Tools",
-    skills: ["Git", "Agile Method", "Visual Studio", "Postman"]
+    skills: ["Git", "Méthode Agile", "Visual Studio", "Postman"]
   }
 }
 
@@ -24,12 +24,12 @@ const projectList= [
   {
     link: "https://sentinelle.derenty.net/",
     name: "Sentinelle",
-    description: "A fake web application made for a school project. The Website is connected to a SQL DataBase with an API."
+    description: "Un site internet en web3 crée dans le cadre d'un projet d'école. Le but était de créer une application reliée à une base de données, permettant de suivre les émissions de gaz en France. La base de données étant une BDD MySQL, j'ai créer une API en nodeJS afin de pouvoir communiquer avec elle."
   },
   {
     link: "https://englishvote.derenty.net",
     name: "English Vote",
-    description: "A web application that allows you to vote on the best English word to describe a given image."
+    description: "Un site web en VueJS qui permet de voter pour une video et un acteur, tout ce cas dans le cadre d'un projet scolaire. La partie Front-End à été dévellopée en VueJS, la backend, en AdonisJS."
   }
 
 ]

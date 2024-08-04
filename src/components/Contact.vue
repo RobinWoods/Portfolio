@@ -46,14 +46,14 @@ async function sendMail(){
         <img src="@/assets/crossIcon.png" alt="cross Icon" class="crossButton" @click="close">
       </div>
       <div  class="contactDiv">
-        <h1>Contact-Me</h1>
-        <label for="name">Your Name :</label>
-        <input type="text" placeholder="Name" v-model="name" name="name"/>
-        <label for="email">Your Email :</label>
+        <h1>Contactez-Moi</h1>
+        <label for="name">Votre Nom :</label>
+        <input type="text" placeholder="Nom" v-model="name" name="name"/>
+        <label for="email">Votre Email :</label>
         <input type="email" placeholder="Email" v-model="email" name="email"/>
-        <label for="message">Your Message :</label>
+        <label for="message">Votre Message :</label>
         <textarea placeholder="Message" style="min-width: 100%; max-width: 100%; min-height: 3rem" v-model="message" name="message"></textarea>
-        <button class="sendButton" @click="sendMail">Send</button>
+        <button class="sendButton" @click="sendMail">Envoyer</button>
       </div>
     </div>
   </div>

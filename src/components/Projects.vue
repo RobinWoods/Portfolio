@@ -8,7 +8,7 @@ defineProps({
 
 <template>
   <div>
-    <h1>My Projects</h1>
+    <h1>Mes Projets</h1>
     <div class="projects">
       <Project v-for="project in projectsList" :project="project"/>
     </div>

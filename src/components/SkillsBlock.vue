@@ -45,8 +45,8 @@ div{
 
 
 .skillsLogo{
-  width: 3rem;
-  height: auto;
+  width: auto;
+  height: 3rem;
 }
 
 </style>
