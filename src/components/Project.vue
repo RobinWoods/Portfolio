@@ -36,7 +36,7 @@ div{
 
 .projectIntegration{
   width: 100%;
-  height: 20rem;
+  height: 30rem;
   margin: 2rem;
   border-radius: 2rem;
 }
