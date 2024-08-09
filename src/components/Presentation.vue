@@ -36,7 +36,22 @@ div{
 img{
   border-radius: 50%;
   transition-duration: 0.2s;
+  animation: float 4s ease-in-out infinite;
+  cursor: pointer;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 img:hover{
   scale: 1.05;
 }
