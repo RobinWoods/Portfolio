@@ -8,7 +8,7 @@ import Footer from "@/components/Footer.vue";
 const skills = {
   dev: {
     group: "Dev",
-    skills: ["Web3", "Java", "C", "Python"]
+    skills: ["Web", "Java", "C", "Python"]
   },
   system: {
     group: "System",
@@ -24,7 +24,7 @@ const projectList= [
   {
     link: "https://sentinelle.derenty.net/",
     name: "Sentinelle",
-    description: "Un site internet en web3 crée dans le cadre d'un projet d'école. Le but était de créer une application reliée à une base de données, permettant de suivre les émissions de gaz en France. La base de données étant une BDD MySQL, j'ai créer une API en nodeJS afin de pouvoir communiquer avec elle."
+    description: "Un site internet en HTML / CSS / JS crée dans le cadre d'un projet d'école. Le but était de créer une application reliée à une base de données, permettant de suivre les émissions de gaz en France. La base de données étant une BDD MySQL, j'ai créer une API en nodeJS afin de pouvoir communiquer avec elle."
   },
   {
     link: "https://englishvote.derenty.net",
