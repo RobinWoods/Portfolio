@@ -10,7 +10,9 @@ defineProps({
   <div>
     <h1>Mes Projets</h1>
     <div class="projects">
-      <Project v-for="project in projectsList" :project="project"/>
+      <div class="project-item" v-for="(project, index) in projectsList" :key="project?.name || index">
+        <Project :project="project"/>
+      </div>
     </div>
   </div>
 
@@ -18,22 +20,37 @@ defineProps({
 
 <style scoped>
 
+h1{
+  color: black;
+}
+
 div{
   text-align: center;
   margin-top: 5rem;
 }
 
-
-
 .projects{
-  margin-top:0;
+  margin-top: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
   margin-inline: 2rem;
+}
+
+.project-item{
+  display: flex;
+}
+
+.project-item:nth-child(odd){
+  justify-content: flex-start;
+}
+
+.project-item:nth-child(even){
+  justify-content: flex-end;
+}
+
+.project-item :deep(.project-container){
+  margin: 0;
 }
 
 </style>
