@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <a href="/public/pdf/CV_RDerenty.pdf" target="_blank" ><img src="@/assets/robinHood.png" alt="Robin Hood" class="robinHood"/></a>
+    <a href="/pdf/CV_RDerenty.pdf" target="_blank" ><img src="@/assets/robinHood.png" alt="Robin Hood" class="robinHood"/></a>
     <p>⬆️ Télécharger mon CV ⬆️</p>
     <h1>Robin Derenty</h1>
     <h2>Étudiant Ingénieur Informatique</h2>
