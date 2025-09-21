@@ -7,10 +7,12 @@ function getImage(fileName) {
 
 }
 
-const projectsList = projectsData.map(project => ({
+let projectsList = projectsData.map(project => ({
   ...project,
   image: getImage(project.image)
 }))
+
+projectsList = projectsList.sort((a, b) => a.index - b.index);
 
 </script>
 
@@ -18,7 +20,7 @@ const projectsList = projectsData.map(project => ({
   <div>
     <h1>Mes Projets</h1>
     <div class="projects">
-      <div class="project-item" v-for="(project, index) in projectsList" :key="project?.name || index">
+      <div class="project-item" v-for="project in projectsList" :key="project.index">
         <Project :project="project"/>
       </div>
     </div>
