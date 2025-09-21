@@ -1,9 +1,17 @@
 <script setup>
 import Project from "@/components/Project.vue";
+import projectsData from "@/data/projects.json"
 
-defineProps({
-  projectsList : Array
-})
+function getImage(fileName) {
+  return new URL(`../assets/projectScreens/${fileName}`, import.meta.url).href;
+
+}
+
+const projectsList = projectsData.map(project => ({
+  ...project,
+  image: getImage(project.image)
+}))
+
 </script>
 
 <template>
